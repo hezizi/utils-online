@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.51.1
     version: 2.51.1(vue@3.3.4)
   '@yuci/utils':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.2.1
+    version: 0.2.1
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -1177,8 +1177,8 @@ packages:
       - typescript
     dev: true
 
-  /@yuci/utils@0.2.0:
-    resolution: {integrity: sha512-F2xspUE6GBFsDDdIQkBBoxSqtTWjztI4Fzgo/KeWCmcXgZB5G8CEFgsG798B/YsIluq5nhGzI81IPC/lJDdbJQ==}
+  /@yuci/utils@0.2.1:
+    resolution: {integrity: sha512-FHdVfR5chR/IJfeB8z5IGyR6naV98oUm4kadYJrwUlozB734lpu2ORhKkKL4oNXeRftmeuNZBWYXrtczDney6w==}
     dev: false
 
   /abab@2.0.6:

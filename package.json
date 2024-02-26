@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@arco-design/web-vue": "^2.51.1",
-    "@yuci/utils": "^0.2.0",
+    "@yuci/utils": "^0.2.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
