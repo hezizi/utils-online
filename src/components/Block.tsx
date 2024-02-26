@@ -9,9 +9,11 @@ export default defineComponent({
     return () => {
       const { name } = props
       return (
-        <div class="border p-5">
+        <div class="flex flex-col border p-5">
           <div class="text-xl font-bold mb-6">{name}</div>
-          {slots.default?.()}
+          <div class="flex flex-1 flex-col justify-between">
+            {slots.default?.()}
+          </div>
         </div>
       )
     }
