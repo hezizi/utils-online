@@ -34,7 +34,7 @@ export default defineComponent({
           <a-input onInput={onMaxInput} defaultValue={max.value} />
         </div>
 
-        <a-button type="primary" onClick={onClick} class="mb-3">
+        <a-button type="primary" onClick={onClick}>
           生成 {min.value} 到 {max.value} 间随机数
         </a-button>
       </Block>
