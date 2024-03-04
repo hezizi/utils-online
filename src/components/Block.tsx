@@ -1,7 +1,9 @@
 import { defineComponent } from 'vue'
 
+const name = 'ComponentBlock'
+
 export default defineComponent({
-  name: 'Block',
+  name,
   props: {
     name: String
   },

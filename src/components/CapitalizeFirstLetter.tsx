@@ -13,10 +13,10 @@ export default defineComponent({
     }
 
     return () => (
-      <Block name={name}>
+      <component-block name={name}>
         <p class="text-lg mb-3">{capitalizeFirstLetter(text.value)}</p>
         <a-input onInput={onInput} defaultValue={text.value} />
-      </Block>
+      </component-block>
     )
   }
 })

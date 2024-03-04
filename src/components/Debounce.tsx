@@ -19,7 +19,7 @@ export default defineComponent({
     }, 1000)
 
     return () => (
-      <Block name={name}>
+      <component-block name={name}>
         <p class="text-lg mb-3">{count.value}</p>
         <a-space>
           <a-button type="primary" onClick={onClick}>
@@ -30,7 +30,7 @@ export default defineComponent({
             1s Delay
           </a-button>
         </a-space>
-      </Block>
+      </component-block>
     )
   }
 })
