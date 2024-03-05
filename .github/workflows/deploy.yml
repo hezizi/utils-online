@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: 'yuci-utils'
-          entrypoint: 'index.html' # 📝 Update the entrypoint if necessary
-          root: '.' # 📝 Update the root if necessary
+          entrypoint: https://deno.land/std@0.209.0/http/file_server.ts
+          root: dist
